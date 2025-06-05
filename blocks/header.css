@@ -5,6 +5,7 @@
   height: 800px;
   display: flex;
   flex-direction: column;
+  z-index: 1;
 }
 
 .header__title {
@@ -19,6 +20,7 @@
 .header__span-accent {
   display: block;
   font-family: "Noto Serif", "Times New Roman", serif;
+  font-weight: normal;
   font-style: italic;
   color: #3f96f3;
 }
@@ -37,6 +39,7 @@
   right: 5px;
   width: 646px;
   height: 568px;
+  z-index: -1;
 }
 
 .header__footer {
